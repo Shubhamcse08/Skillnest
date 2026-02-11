@@ -67,7 +67,7 @@ const Dashboard = () => {
           <div className="text-center py-12 bg-white rounded-lg shadow">
             <p className="text-xl text-gray-600 mb-4">You haven't enrolled in any courses yet</p>
             <Link
-              href="/courses"
+              to="/courses"
               className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
             >
               Browse Courses
